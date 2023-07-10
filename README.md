@@ -1,5 +1,5 @@
 # Purpose of this work
-- Choose a database and apply the steps of a Machine Learning Project. my problem is for: **Classification**.
+- Choose a database and apply the steps of a Machine Learning Project. My problem is for: **Classification**.
 
 - Propose 4 solutions to the problem and at the end inform the most efficient one:
   - a) Choose a Machine Learning model and apply it without use feature selection or dimensionality reduction. Simply apply the model and find the value of R2(for Regression) or 
