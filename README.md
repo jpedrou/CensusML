@@ -8,4 +8,4 @@
   - c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
   - d) Use the Pycaret library to solve the problem.
     
- **OBS**: If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.
+ **OBS: If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.**
