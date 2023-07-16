@@ -2,17 +2,18 @@
 - Choose a database and apply the steps of a Machine Learning Project. My problem is for: **Classification**.
 
 - Propose 4 solutions to the problem and at the end inform the most efficient one:
-  - a) Choose a Machine Learning model and apply it without use feature selection or dimensionality reduction. Simply apply the model and find the value of R2(for Regression) or 
+  - [x] a) Choose a Machine Learning model and apply it without use feature selection or dimensionality reduction. Simply apply the model and find the value of R2(for Regression) or 
     Accuracy (for Classification).
-  - b) Use the PCA or LDA technique for dimensionality reduction and apply the Same Machine Learning model used in letter a.
-  - c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
-  - d) Use the Pycaret library to solve the problem.
+  - [x] b) Use the PCA or LDA technique for dimensionality reduction and apply the Same Machine Learning model used in letter a.
+  - [x] c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
+  - [x] d) Use the Pycaret library to solve the problem.
     
  **OBS: If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.**
+ 
 # Exploratory Data Analysis (EDA)
 ## Data 
 It's a Extraction from the 1994 Census database wich was done by Barry Becker.
-For more data details click [here](https://archive.ics.uci.edu/ml/datasets/adult).
+**For more data details click [here](https://archive.ics.uci.edu/ml/datasets/adult)**.
 
 > The **goal** is predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
 
@@ -46,11 +47,11 @@ As I used LabelEncoder and OneHotEncoder to transform categorical features into 
 In this experience I tried to improve the model selecting the best attributes using the **Low Variance** method. It removes all features whose variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e. features that have the same value in all samples. At this point, I've got a good Accuracy **(0.8157)**.
 
 ## 4° Using Pycaret
-- CatBoostClassifier [<img align='right' width=340 src='https://github.com/jpedrou/CensusML/assets/127536464/4a0e380d-1579-406c-8063-3360d81a4686'>](https://pycaret.org/)
+- CatBoostClassifier <img align='right' width=340 src='https://github.com/jpedrou/CensusML/assets/127536464/4a0e380d-1579-406c-8063-3360d81a4686'>
 
 It's a powerfull Python AutoML library, which is very used to find the base model to not lose much time finding manually the ideal model. I just passed the default parameters and already had an awesome result **(0.8746)**.
 
-**If you want to see more of the library click on Pycaret Logo.**
+**If you want to see more of the library click [here](https://pycaret.org/).**
 
 # Conclusion 
 The best model was with pycaret library, just with the default configs:
