@@ -12,7 +12,7 @@
 # Exploratory Data Analysis (EDA)
 ## Data 
 It's a Extraction from the 1994 Census database wich was done by Barry Becker.
-For more data details check this link: https://archive.ics.uci.edu/ml/datasets/adult
+For more data details click [here](https://archive.ics.uci.edu/ml/datasets/adult).
 
 > The **goal** is predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
 
@@ -38,3 +38,22 @@ I used this model like this to see how good it would be without looking for the 
 - LDA; totally dependent of the class(es)
 
 As I used LabelEncoder and OneHotEncoder to transform categorical features into numeric ones, the data got too many columns. For that, I thought that using LDA ( dimension reduction technique), which often has better results than PCA would be a good method. But, as my meta class only had two features LDA greatly reducted the data, wich can caused some correlations lost. For that, the Accuracy was not so good **(0.7836)**. 
+
+
+## 3° DecisionTreeClassifier With Features Selection
+- Low Variance
+  
+In this experience I tried to improve the model selecting the best attributes using the **Low Variance** method. It removes all features whose variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e. features that have the same value in all samples. At this point, I've got a good Accuracy **(0.8157)**.
+
+## 4° Using Pycaret
+- CatBoostClassifier [<img align='right' width=340 src='https://github.com/jpedrou/CensusML/assets/127536464/4a0e380d-1579-406c-8063-3360d81a4686'>](https://pycaret.org/)
+
+It's a powerfull Python AutoML library, which is very used to find the base model to not lose much time finding manually the ideal model. I just passed the default parameters and already had an awesome result **(0.8746)**.
+
+**If you want to see more of the library click on Pycaret Logo.**
+
+# Conclusion 
+The best model was with pycaret library, just with the default configs:
+- **CatBoostClassifier (0.8746)**
+
+CatBoost is one of the most powerfull classification models in this moment, basically it have the same learning principles of DecisionTree, but with new updates and parameters. It is a recent model.
