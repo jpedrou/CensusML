@@ -2,11 +2,11 @@
 - Choose a database and apply the steps of a Machine Learning Project. My problem is for: **Classification**.
 
 - Propose 4 solutions to the problem and at the end inform the most efficient one:
-  - <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> a) Choose a Machine Learning model and apply it without use feature selection or dimensionality reduction. Simply apply the model and find the value of R2(for Regression) or 
+  <br><br> <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> a) Choose a Machine Learning model and apply it without use feature selection or dimensionality reduction. Simply apply the model and find the value of R2(for Regression) or 
     Accuracy (for Classification).
-  - <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> b) Use the PCA or LDA technique for dimensionality reduction and apply the Same Machine Learning model used in letter a.
-  - <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
-  - <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> d) Use the Pycaret library to solve the problem.
+  <br><br> <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> b) Use the PCA or LDA technique for dimensionality reduction and apply the Same Machine Learning model used in letter a.
+  <br><br> <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
+  <br><br> <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> d) Use the Pycaret library to solve the problem.
 
 ## Tools
 <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/> <img width="48" height="48" src="https://img.icons8.com/color/48/google-colab.png" alt="google-colab"/>
