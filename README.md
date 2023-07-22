@@ -15,7 +15,7 @@
 <img width="20" height="20" src="https://img.icons8.com/color/48/spam.png" alt="spam"/> **If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.**
 
 # Creator
-- João Pedro Nunes Oliveira
+- [@jpedrou](https://github.com/jpedrou)
  
 # Exploratory Data Analysis (EDA)
 ## Data 
