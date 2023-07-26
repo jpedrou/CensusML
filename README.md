@@ -18,7 +18,7 @@
 - [@jpedrou](https://github.com/jpedrou)
  
 # Exploratory Data Analysis (EDA)
-## About Data 
+## About Dataset 
 It's a Extraction from the 1994 Census database wich was done by Barry Becker.
 **For more data details click [here](https://archive.ics.uci.edu/ml/datasets/adult)**.
 
