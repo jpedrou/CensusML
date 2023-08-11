@@ -8,12 +8,13 @@ Choose a database and apply the steps of a Machine Learning Project. My problem 
   <br><br> c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
   <br><br> d) Use the Pycaret library to solve the problem.
 
-### Tools
+## Tools
 <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/> <img width="48" height="48" src="https://img.icons8.com/color/48/google-colab.png" alt="google-colab"/>
-### Creator
-[@jpedrou](https://github.com/jpedrou)
 
-### OBS
+## Creator
+- [@jpedrou](https://github.com/jpedrou)
+
+## OBS
 **If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.** 
 # About Dataset 
 It's a Extraction from the 1994 Census database wich was done by Barry Becker.
@@ -27,29 +28,30 @@ Some analyzes were made to verify inconsistent data, missing data and graphical 
 # Model Selection
 After doing the EDA I opted for the DecisionTreClassifier Model, because as the data is large this model can be more specific and more accurate than the probably table models, rule models and maybe more accurate than the instanced-based ones. Basically, the model I chose works by making, as the name suggests, a Decision Tree, where it will find the best correlations between the most important attributes. Also a good choice would be the RandomForestClassifier, wich is an updated DecisionTree model.
 
-![decision](https://github.com/jpedrou/CensusML/assets/127536464/3ad4bcaf-068c-4eb2-b232-d746845b615a)
+![decision_tree](https://github.com/jpedrou/CensusML/assets/127536464/a85c6276-e9c1-4f0d-88bb-62c0e2f301b9)
+
 
 **Decision Tree example.**
 
-### Default DecisionTreeClassifier
+## Default DecisionTreeClassifier
 - Default Model
 - Without find the best parameters
 - No Data Transformation
   
 I used this model like this to see how good it would be without looking for the best parameters and had a regular Accuracy result **(0.8082)**.
 
-### DecisionTreeClassifier With Dimensionality Reduction Technique
+## DecisionTreeClassifier With Dimensionality Reduction Technique
 - LDA; totally dependent of the class(es)
 
 As I used LabelEncoder and OneHotEncoder to transform categorical features into numeric ones, the data got too many columns. For that, I thought that using LDA ( dimension reduction technique), which often has better results than PCA would be a good method. But, as my meta class only had two features LDA greatly reducted the data, wich can caused some correlations lost. For that, the Accuracy was not so good **(0.7836)**. 
 
 
-### DecisionTreeClassifier With Features Selection
+## DecisionTreeClassifier With Features Selection
 - Low Variance
   
 In this experience I tried to improve the model selecting the best attributes using the **Low Variance** method. It removes all features whose variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e. features that have the same value in all samples. At this point, I've got a good Accuracy **(0.8157)**.
 
-### Pycaret
+## Pycaret
 - CatBoostClassifier <img align='right' width=340 src='https://github.com/jpedrou/CensusML/assets/127536464/4a0e380d-1579-406c-8063-3360d81a4686'>
 
 It's a powerfull Python AutoML library, which is very used to find the base model to not lose much time finding manually the ideal model. I just passed the default parameters and already had an awesome result **(0.8746)**.
