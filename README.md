@@ -28,8 +28,9 @@ Some analyzes were made to verify inconsistent data, missing data and graphical 
 # Model Selection
 After doing the EDA I opted for the DecisionTreClassifier Model, because as the data is large this model can be more specific and more accurate than the probably table models, rule models and maybe more accurate than the instanced-based ones. Basically, the model I chose works by making, as the name suggests, a Decision Tree, where it will find the best correlations between the most important attributes. Also a good choice would be the RandomForestClassifier, wich is an updated DecisionTree model.
 
-![decision_tree](https://github.com/jpedrou/CensusML/assets/127536464/a85c6276-e9c1-4f0d-88bb-62c0e2f301b9)
-
+<p align="center">
+    <img display = center src = 'https://github.com/jpedrou/CensusML/assets/127536464/a85c6276-e9c1-4f0d-88bb-62c0e2f301b9'>
+</p>
 
 **Decision Tree example.**
 
