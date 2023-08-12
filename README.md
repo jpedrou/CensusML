@@ -7,12 +7,11 @@ Choose a database and apply the steps of a Machine Learning Project. My problem 
   <br><br> b) Use the PCA or LDA technique for dimensionality reduction and apply the Same Machine Learning model used in letter a.
   <br><br> c) Use a Feature Selection technique and apply the same Machine Learning model used in the letter a.
   <br><br> d) Use the Pycaret library to solve the problem.
+## Creator
+- [@jpedrou](https://github.com/jpedrou)
 
 ## Tools
 <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/> <img width="48" height="48" src="https://img.icons8.com/color/48/google-colab.png" alt="google-colab"/>
-
-## Creator
-- [@jpedrou](https://github.com/jpedrou)
 
 ## OBS
 **If you are seeing the code here in GitHub some graphics may not be displayed, because some ones are dynamic. You can open it in the Google Colab.** 
