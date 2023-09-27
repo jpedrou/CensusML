@@ -59,6 +59,13 @@ It's a powerfull Python AutoML library, which is very used to find the base mode
 **If you want to see more of the library click [here](https://pycaret.org/).**
 
 # Conclusion 
+| Models | Accuracy
+|---|---|
+|Default Decision Tree | 80.82 %
+|Decision tree with LDA | 78.36 %
+|Decision Tree with Features Selection | 81.57 %
+| Pycaret - CatBoostClassifier| 87.46 %
+
 The best model was with pycaret library, just with the default configs:
 - **CatBoostClassifier (0.8746)**
 
