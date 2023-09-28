@@ -19,9 +19,9 @@
 It's a Extraction from the 1994 Census database wich was done by Barry Becker.
 **For more data details click [here](https://archive.ics.uci.edu/ml/datasets/adult)**.
 
-> The **goal** is predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
+- The **goal** is predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
 
-> The metric chose to evaluate the models performance was **Accuracy**
+- The metric chose to evaluate the models performance was **Accuracy**
 
 Some analyzes were made to verify inconsistent data, missing data and graphical visualizations to understand and discover what were the relationships between the attributes, so that it would be possible to choose a model that could be satisfactory for the case. All of this analyzes can be checked in the project file.
 # Model Selection
