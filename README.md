@@ -1,7 +1,3 @@
-<div align='center'>
-  <img  width= 300 src="https://github.com/jpedrou/CensusML/assets/127536464/dbe6e1df-3d11-418c-aaae-abfc48acd85a">  
-</div>
-
 # Purpose
 - Choose a database and apply the steps of a Machine Learning Project. My problem is for: **Classification**.
 
